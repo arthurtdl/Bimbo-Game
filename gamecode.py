@@ -106,6 +106,7 @@ while True:
             running = False
 
     else:
+        bimbo_rect.y = 150
         screen.fill((147, 47, 55))
         screen.blit(bimbo_stand_surface, bimbo_stand_rect)
         screen.blit(game_name, game_name_rect)
