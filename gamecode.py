@@ -58,9 +58,6 @@ pterodactyl_surface = pygame.image.load('sprites/enemies/pterodactyl.png').conve
 
 enemies_rect_list = []
 
-#Bullet initial data
-bullet_surface = pygame.image.load('sprites/bullet.png').convert_alpha()
-
 
 #Initial Screen data
 bimbo_stand_surface = pygame.image.load('sprites/bimbo/bimbo_jump.png').convert_alpha()
