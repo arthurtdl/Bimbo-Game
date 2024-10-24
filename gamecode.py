@@ -31,7 +31,7 @@ def collision(bimbo, enemies):
 pygame.init()
 
 screen = pygame.display.set_mode((600,200))
-pygame.display.set_caption("Bimbo Shooting Range")
+pygame.display.set_caption("Bimbo Game")
 clock = pygame.time.Clock()
 font = pygame.font.Font('font/Pixeltype.ttf', 30)
 
@@ -67,7 +67,7 @@ bimbo_stand_surface = pygame.image.load('sprites/bimbo/bimbo_jump.png').convert_
 bimbo_stand_surface = pygame.transform.rotozoom(bimbo_stand_surface, 0, 2)
 bimbo_stand_rect = bimbo_stand_surface.get_rect(center = (300, 100))
 
-game_name = font.render("Bimbo Shooting Range", False, 'White')
+game_name = font.render("Bimbo Game", False, 'White')
 game_name_rect = game_name.get_rect(center = (300, 25))
 
 game_message = font.render("Press Space to RUN!", False, 'White')
