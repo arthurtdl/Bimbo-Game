@@ -5,7 +5,7 @@ from random import randint
 def display_score():
     current_time = pygame.time.get_ticks() - start_time
     score_surface = font.render(f"Score: {current_time//1000}", False, (64, 64, 64))
-    score_rect = score_surface.get_rect(midbottom = (60, 30))
+    score_rect = score_surface.get_rect(midbottom = (540, 30))
     screen.blit(score_surface, score_rect)
     return current_time//1000
 
